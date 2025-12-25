@@ -25,8 +25,6 @@ If this URL doesn’t resolve, check:
 
 ## Authentication
 
-Authentication
-
 None.
 If someone can access your kefir API, they’ve already won.
 
@@ -65,8 +63,7 @@ Milk goes in. Time passes. Science happens.
 {
   "milk_type": "cow",
   "volume_ml": 1000,
-  "temperature_c": 22,
-  "use_grains": true
+  "temperature_c": 22
 }
 ```
 
@@ -75,9 +72,8 @@ Milk goes in. Time passes. Science happens.
 | Field           | Type   | Required | Description                                                       |
 | --------------- | ------ | -------- | ------------------------------------------------------------------|
 | `milk_type`     | string | yes      | Type of milk (cow, goat, plant*)                                  |
-| `volume_ml`     | number | yes      | Amount of milk in milliliters. Recommended Range 500-100          |
+| `volume_ml`     | number | yes      | Amount of milk in milliliters. Recommended Range 500-1000         |
 | `temperature_c` | number | no       | Ambient temperature (default: 21°C)                               |
-| `use_grains`    | bool   | no       | Use of harvested grains or start with fresh grains (default: yes) |
 
 * Plant milk support may result in *experimental kefir*.
 * Lower starting volume results in faster fermentation.
@@ -115,8 +111,8 @@ Returns the current state of the active kefir batch.
 
 ### Possible Status Values
 
-* `idle - Fermentation has just started`
-* `fermenting - Batch is fermenting`
+* `idle - Waiting for grains.`
+* `fermenting - Batch is fermenting.`
 * `ready - Batch is tangy and pleasant. Ready for consumption.`
 * `overfermented - Batch is very tangy. Harvest and diluting recommended.`
 
