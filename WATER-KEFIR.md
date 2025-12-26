@@ -232,6 +232,15 @@ All errors return:
 
 ---
 
+## Pause Kefir Production
+
+* You can pause the fermentation cycle of the water kefir.
+* Put grains with a little bit of water (50-100 ml) and a teaspoon of sugar into a small container and place in fridge.
+* Kefir will survive 2-3 Weeks while in fridge. 
+* This process can be repeated indefinietly. Simply rinse grains and repeat the process.
+
+---
+
 ## License
 
 MIT — Sugar Is Transferable 💧
