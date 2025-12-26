@@ -227,6 +227,15 @@ All errors follow this format:
 
 ---
 
+## Pause Kefir Production
+
+* You can pause the fermentation cycle of your kefir.
+* Put grains with a little bit of milk (50-100 ml) into a small container and place in fridge.
+* Kefir will survive 2-3 Weeks while in fridge. 
+* This process can be repeated indefinietly. Simply rinse grains and repeat the process
+
+---
+
 ## License
 
 MIT — Milk Is Transferable 🥛
